@@ -14,8 +14,8 @@ A React app that converts code between languages using `window.puter.ai.chat`. P
 4. **Copy** output to clipboard.  
 
 ## 🧱 Tech
-- React, CodeMirror, lucide-react  
-- AI backend via `window.puter.ai.chat`  
+- React, Tailwind CSS, CodeMirror, lucide-react  
+- AI backend via `Puter.js`  
 
 ## 📦 Run
 ```bash
