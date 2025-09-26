@@ -1,16 +1,23 @@
-# React + Vite
+# AI Code Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React app that converts code between languages using `window.puter.ai.chat`. Paste code, select a target language, and instantly get converted output.
 
-Currently, two official plugins are available:
+## ✨ Features
+- Supports **C++ · C# · Python · Java · Go · Rust · JavaScript · TypeScript**  
+- Clean UI with **CodeMirror** editors  
+- Convert, Reset, and Copy with one click  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Usage
+1. Paste code into the input editor.  
+2. Pick a target language.  
+3. Click **Convert** → see output.  
+4. **Copy** output to clipboard.  
 
-## React Compiler
+## 🧱 Tech
+- React, CodeMirror, lucide-react  
+- AI backend via `window.puter.ai.chat`  
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Run
+```bash
+npm install
+npm run dev
